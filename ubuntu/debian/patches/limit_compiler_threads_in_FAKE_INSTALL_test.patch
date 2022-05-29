@@ -1,0 +1,25 @@
+Description: Force FAKE install test to use 1 compilation thread
+ ARM build if failing in the FAKE install test without more details. The
+ possible root cause if the big amount of memory used by the software and the
+ multiple threads spawned by the ExternalProject in CMake.
+Author: Jose Luis Rivero <jrivero@osrfoundation.org>
+Forwarded: not-needed
+Last-Update: 2022-02-14
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+--- a/test/CMakeLists.txt
++++ b/test/CMakeLists.txt
+@@ -36,9 +36,10 @@
+
+   SOURCE_DIR "${CMAKE_SOURCE_DIR}"
+   EXCLUDE_FROM_ALL 1
+-  LOG_CONFIGURE 1
+-  LOG_BUILD 1
+-  LOG_INSTALL 1
++  LOG_CONFIGURE 0
++  LOG_BUILD 0
++  LOG_INSTALL 0
++  BUILD_COMMAND VERBOSE=1 make -j1
+   CMAKE_ARGS
+     "-DBUILD_TESTING=OFF"
+     "-DCMAKE_INSTALL_PREFIX=${FAKE_INSTALL_PREFIX}"
