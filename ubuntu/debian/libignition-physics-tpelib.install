@@ -1,1 +1,1 @@
-usr/lib/*/libignition-physics[0-99]-tpelib*.so.*
+usr/lib/*/lib+(ignition|gz)-physics[0-99]-tpelib*.so.*

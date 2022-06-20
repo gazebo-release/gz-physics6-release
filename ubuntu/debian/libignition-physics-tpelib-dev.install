@@ -1,5 +1,5 @@
-usr/include/ignition/physics*/ignition/physics/tpelib/*
-usr/include/ignition/physics*/gz/physics/tpelib/*
-usr/lib/*/cmake/ignition-physics[0-99]-tpelib/*
-usr/lib/*/libignition-physics[0-99]-tpelib.so
-usr/lib/*/pkgconfig/ignition-physics[0-99]-tpelib.pc
+usr/include/+(ignition|gz)/physics*/+(ignition|gz)/physics/tpelib/*
+usr/include/+(ignition|gz)/physics*/gz/physics/tpelib/*
+usr/lib/*/cmake/+(ignition|gz)-physics[0-99]-tpelib/*
+usr/lib/*/lib+(ignition|gz)-physics[0-99]-tpelib.so
+usr/lib/*/pkgconfig/+(ignition|gz)-physics[0-99]-tpelib.pc

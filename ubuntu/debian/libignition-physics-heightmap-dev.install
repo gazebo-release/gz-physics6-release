@@ -1,4 +1,4 @@
-usr/include/ignition/physics*/ignition/physics/heightmap/*
-usr/include/ignition/physics*/gz/physics/heightmap/*
-usr/lib/*/cmake/ignition-physics[0-99]-heightmap/*
-usr/lib/*/pkgconfig/ignition-physics[0-99]-heightmap.pc
+usr/include/+(ignition|gz)/physics*/+(ignition|gz)/physics/heightmap/*
+usr/include/+(ignition|gz)/physics*/gz/physics/heightmap/*
+usr/lib/*/cmake/+(ignition|gz)-physics[0-99]-heightmap/*
+usr/lib/*/pkgconfig/+(ignition|gz)-physics[0-99]-heightmap.pc
