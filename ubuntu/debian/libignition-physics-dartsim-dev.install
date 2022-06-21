@@ -1,6 +1,6 @@
-usr/include/+(ignition|gz)/physics*/+(ignition|gz)/physics/dartsim*/*
-usr/include/+(ignition|gz)/physics*/gz/physics/dartsim*/*
-usr/lib/*/cmake/+(ignition|gz)-physics[0-99]-dartsim*/*
-usr/lib/*/lib+(ignition|gz)-physics[0-99]-dartsim*.so
-usr/lib/*/+(ign|gz)-physics-[0-99]/engine-plugins/lib+(ignition|gz)-physics*-dartsim*.so
-usr/lib/*/pkgconfig/+(ignition|gz)-physics[0-99]-dartsim*.pc
+usr/include/*/physics*/*/physics/dartsim*/*
+usr/include/*/physics*/gz/physics/dartsim*/*
+usr/lib/*/cmake/*-physics[0-99]-dartsim*/*
+usr/lib/*/lib*-physics[0-99]-dartsim*.so
+usr/lib/*/*-physics-[0-99]/engine-plugins/lib*-physics*-dartsim*.so
+usr/lib/*/pkgconfig/*-physics[0-99]-dartsim*.pc

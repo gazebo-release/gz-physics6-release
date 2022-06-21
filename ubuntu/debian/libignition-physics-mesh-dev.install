@@ -1,4 +1,4 @@
-usr/include/+(ignition|gz)/physics*/+(ignition|gz)/physics/mesh/*
-usr/include/+(ignition|gz)/physics*/gz/physics/mesh/*
-usr/lib/*/cmake/+(ignition|gz)-physics[0-99]-mesh/*
-usr/lib/*/pkgconfig/+(ignition|gz)-physics[0-99]-mesh.pc
+usr/include/*/physics*/*/physics/mesh/*
+usr/include/*/physics*/gz/physics/mesh/*
+usr/lib/*/cmake/*-physics[0-99]-mesh/*
+usr/lib/*/pkgconfig/*-physics[0-99]-mesh.pc

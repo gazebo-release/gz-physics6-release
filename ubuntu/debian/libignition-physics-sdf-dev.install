@@ -1,4 +1,4 @@
-usr/include/+(ignition|gz)/physics*/+(ignition|gz)/physics/sdf/*
-usr/include/+(ignition|gz)/physics*/gz/physics/sdf/*
-usr/lib/*/cmake/+(ignition|gz)-physics[0-99]-sdf/*
-usr/lib/*/pkgconfig/+(ignition|gz)-physics[0-99]-sdf.pc
+usr/include/*/physics*/*/physics/sdf/*
+usr/include/*/physics*/gz/physics/sdf/*
+usr/lib/*/cmake/*-physics[0-99]-sdf/*
+usr/lib/*/pkgconfig/*-physics[0-99]-sdf.pc

@@ -1,8 +1,8 @@
-usr/include/+(ignition|gz)/physics[0-99]/+(ignition|gz)/physics.hh
-usr/include/+(ignition|gz)/physics[0-99]/+(ignition|gz)/physics/*.hh
-usr/include/+(ignition|gz)/physics[0-99]/gz/physics.hh
-usr/include/+(ignition|gz)/physics[0-99]/gz/physics/*.hh
-usr/include/+(ignition|gz)/physics[0-99]/gz/physics/detail/*.hh
-usr/lib/*/lib+(ignition|gz)-physics[0-99].so
-usr/lib/*/pkgconfig/+(ignition|gz)-physics[0-99].pc
-usr/lib/*/cmake/+(ignition|gz)-physics[0-99]/+(ignition|gz)-physics*
+usr/include/*/physics[0-99]/*/physics.hh
+usr/include/*/physics[0-99]/*/physics/*.hh
+usr/include/*/physics[0-99]/gz/physics.hh
+usr/include/*/physics[0-99]/gz/physics/*.hh
+usr/include/*/physics[0-99]/gz/physics/detail/*.hh
+usr/lib/*/lib*-physics[0-99].so
+usr/lib/*/pkgconfig/*-physics[0-99].pc
+usr/lib/*/cmake/*-physics[0-99]/*-physics*

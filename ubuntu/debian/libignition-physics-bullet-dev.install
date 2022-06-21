@@ -1,6 +1,6 @@
-usr/include/+(ignition|gz)/physics*/+(ignition|gz)/physics/bullet*/*
-usr/include/+(ignition|gz)/physics*/gz/physics/bullet*/*
-usr/lib/*/cmake/+(ignition|gz)-physics[0-99]-bullet*/*
-usr/lib/*/lib+(ignition|gz)-physics[0-99]-bullet*.so
-usr/lib/*/+(ign|gz)-physics-[0-99]/engine-plugins/lib+(ignition|gz)-physics*-bullet*.so
-usr/lib/*/pkgconfig/+(ignition|gz)-physics[0-99]-bullet*.pc
+usr/include/*/physics*/*/physics/bullet*/*
+usr/include/*/physics*/gz/physics/bullet*/*
+usr/lib/*/cmake/*-physics[0-99]-bullet*/*
+usr/lib/*/lib*-physics[0-99]-bullet*.so
+usr/lib/*/*-physics-[0-99]/engine-plugins/lib*-physics*-bullet*.so
+usr/lib/*/pkgconfig/*-physics[0-99]-bullet*.pc

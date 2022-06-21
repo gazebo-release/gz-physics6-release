@@ -1,8 +1,8 @@
-usr/include/+(ignition|gz)/physics*/+(ignition|gz)/physics/tpe-plugin/*
-usr/include/+(ignition|gz)/physics*/gz/physics/tpe-plugin/*
-usr/lib/*/cmake/+(ignition|gz)-physics[0-99]-tpe-plugin/*
-usr/lib/*/cmake/+(ignition|gz)-physics[0-99]-tpe/*
-usr/lib/*/lib+(ignition|gz)-physics[0-99]-tpe-plugin.so
-usr/lib/*/+(ign|gz)-physics-[0-99]/engine-plugins/lib+(ignition|gz)-physics*-tpe-plugin.so
-usr/lib/*/pkgconfig/+(ignition|gz)-physics[0-99]-tpe-plugin.pc
-usr/lib/*/pkgconfig/+(ignition|gz)-physics[0-99]-tpe.pc
+usr/include/*/physics*/*/physics/tpe-plugin/*
+usr/include/*/physics*/gz/physics/tpe-plugin/*
+usr/lib/*/cmake/*-physics[0-99]-tpe-plugin/*
+usr/lib/*/cmake/*-physics[0-99]-tpe/*
+usr/lib/*/lib*-physics[0-99]-tpe-plugin.so
+usr/lib/*/*-physics-[0-99]/engine-plugins/lib*-physics*-tpe-plugin.so
+usr/lib/*/pkgconfig/*-physics[0-99]-tpe-plugin.pc
+usr/lib/*/pkgconfig/*-physics[0-99]-tpe.pc

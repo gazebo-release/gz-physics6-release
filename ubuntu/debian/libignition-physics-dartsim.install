@@ -1,2 +1,2 @@
-usr/lib/*/lib+(ignition|gz)-physics[0-99]-dartsim*.so.*
-usr/lib/*/+(ign|gz)-physics-[0-99]/engine-plugins/lib+(ignition|gz)-physics*-dartsim*.so.*
+usr/lib/*/lib*-physics[0-99]-dartsim*.so.*
+usr/lib/*/*-physics-[0-99]/engine-plugins/lib*-physics*-dartsim*.so.*
