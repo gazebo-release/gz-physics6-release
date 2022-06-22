@@ -1,5 +1,4 @@
 usr/include/*/physics*/*/physics/bullet*/*
-usr/include/*/physics*/gz/physics/bullet*/*
 usr/lib/*/cmake/*-physics[0-99]-bullet*/*
 usr/lib/*/lib*-physics[0-99]-bullet*.so
 usr/lib/*/*-physics-[0-99]/engine-plugins/lib*-physics*-bullet*.so

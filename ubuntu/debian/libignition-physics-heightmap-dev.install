@@ -1,4 +1,3 @@
 usr/include/*/physics*/*/physics/heightmap/*
-usr/include/*/physics*/gz/physics/heightmap/*
 usr/lib/*/cmake/*-physics[0-99]-heightmap/*
 usr/lib/*/pkgconfig/*-physics[0-99]-heightmap.pc

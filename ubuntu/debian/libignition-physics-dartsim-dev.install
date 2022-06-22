@@ -1,5 +1,4 @@
 usr/include/*/physics*/*/physics/dartsim*/*
-usr/include/*/physics*/gz/physics/dartsim*/*
 usr/lib/*/cmake/*-physics[0-99]-dartsim*/*
 usr/lib/*/lib*-physics[0-99]-dartsim*.so
 usr/lib/*/*-physics-[0-99]/engine-plugins/lib*-physics*-dartsim*.so

@@ -1,4 +1,3 @@
 usr/include/*/physics*/*/physics/sdf/*
-usr/include/*/physics*/gz/physics/sdf/*
 usr/lib/*/cmake/*-physics[0-99]-sdf/*
 usr/lib/*/pkgconfig/*-physics[0-99]-sdf.pc

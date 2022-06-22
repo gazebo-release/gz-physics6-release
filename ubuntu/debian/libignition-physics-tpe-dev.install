@@ -1,5 +1,4 @@
 usr/include/*/physics*/*/physics/tpe-plugin/*
-usr/include/*/physics*/gz/physics/tpe-plugin/*
 usr/lib/*/cmake/*-physics[0-99]-tpe-plugin/*
 usr/lib/*/cmake/*-physics[0-99]-tpe/*
 usr/lib/*/lib*-physics[0-99]-tpe-plugin.so
