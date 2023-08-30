@@ -1,3 +1,9 @@
+gz-physics6 (6.5.0-1~jammy) jammy; urgency=medium
+
+  * gz-physics6 6.5.0-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 30 Aug 2023 14:37:45 +0200
+
 gz-physics6 (6.4.0-1~jammy) jammy; urgency=medium
 
   * gz-physics6 6.4.0-1 release
