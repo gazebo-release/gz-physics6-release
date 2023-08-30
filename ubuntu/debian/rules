@@ -5,8 +5,9 @@
 CXXFLAGS:=$(filter-out -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects,$(CXXFLAGS))
 LDFLAGS:=$(filter-out -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects,$(LDFLAGS))
 
+# gz-physics requires a lot of memory to build so it's best to disable parallel builds.
 %:
-	dh $@
+	dh $@ --no-parallel
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
