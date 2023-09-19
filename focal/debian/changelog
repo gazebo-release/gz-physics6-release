@@ -1,3 +1,9 @@
+gz-physics6 (6.5.0-2~focal) focal; urgency=medium
+
+  * gz-physics6 6.5.0-2 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 19 Sep 2023 23:11:35 +0200
+
 gz-physics6 (6.5.0-1~focal) focal; urgency=medium
 
   * gz-physics6 6.5.0-1 release
